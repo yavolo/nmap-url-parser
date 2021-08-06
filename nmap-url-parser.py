@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import sys
 
 file = sys.argv[1]
-print(file)
 
 with open(file, 'r') as f:
     contents = f.read()
